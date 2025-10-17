@@ -1,0 +1,81 @@
+{
+    "version": 1,
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "9249cce0-c334-4856-86ef-a52516c779b3",
+            "actions": [
+                {
+                    "name": "SpacePressed",
+                    "type": "Button",
+                    "id": "60b0f6e5-e2b6-4a82-b189-db6cd6152056",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "2fe6f818-3a17-4829-96b9-4171a074f3bd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LMBClicked",
+                    "type": "Button",
+                    "id": "6a22cbda-e89e-4b49-b068-6a076bceadf5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "416ea633-8ac4-41aa-ba45-fc4b77be4ad9",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpacePressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b8cf017-093f-4281-9157-bba52c2ff2a4",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "051dd8df-653f-4ea6-8910-e46f26151155",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LMBClicked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "a60b1071-ac78-4408-b419-a5829cd60988",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}

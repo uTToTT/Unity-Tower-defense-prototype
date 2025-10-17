@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6dca263004e3c4f8b5a2442557baa6, type: 3}
+  m_Name: EnemyFactory_Speed
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyFactory
+  _prefab: {fileID: 2165585025362849812, guid: 12f27357fc5377b45a6d663cbf532292, type: 3}
+  _capacity: 0
+  _maxCount: 1
+  _totalPreload: 1
+  _totalGet: 1
+  _activeCount: 0
+  _poolCount: 1
+  _totalCount: 1
