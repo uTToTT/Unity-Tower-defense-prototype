@@ -38,8 +38,8 @@ public class EnemyWaveManager : MonoBehaviour, IInitializable
     {
         List<EnemySequence> groups = new();
 
-        EnemySequence eg_0 = new EnemySequence(EnemyType.Small, 10, 0.5f, 1, 1);
-        EnemySequence eg_1 = new EnemySequence(EnemyType.Medium, 15, 0.25f, 1, 1);
+        //EnemySequence eg_0 = new EnemySequence(EnemyType.Small, 10, 0.5f, 1, 1);
+        //EnemySequence eg_1 = new EnemySequence(EnemyType.Medium, 15, 0.25f, 1, 1);
 
         EnemyWave wave = new EnemyWave(groups.ToArray());
 

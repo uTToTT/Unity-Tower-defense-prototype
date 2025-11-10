@@ -1,10 +1,13 @@
-public readonly struct EnemyWave
+using UnityEngine;
+[CreateAssetMenu(fileName = "EnemyWave", menuName = "Enemy/EnemyWave")]
+public class EnemyWave : ScriptableObject
 {
-    public EnemySequence[] EnemyGroups { get;  }
+    [SerializeField]
+    private EnemySequence[] _enemySequences;
 
     public EnemyWave(EnemySequence[] enemyGroups)
     {
-        EnemyGroups = new EnemySequence[enemyGroups.Length];
-        enemyGroups.CopyTo(EnemyGroups, 0);
+        _enemySequences = new EnemySequence[enemyGroups.Length];
+        enemyGroups.CopyTo(_enemySequences, 0);
     }
 }

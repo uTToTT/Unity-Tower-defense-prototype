@@ -1,22 +1,11 @@
-public readonly struct EnemySequence
-{
-    public EnemyType EnemyType { get; }
-    public int EnemyCount { get; }
-    public float DelayBtwSpawn { get; }
-    public float EnemyPowerModifier { get; }
-    public float MoneyDropModifier { get; }
+using System;
+using UnityEngine;
 
-    public EnemySequence(
-        EnemyType enemyType,
-        int enemyCount,
-        float delayBtwSpawn,
-        float enemyPowerModifier,
-        float moneyDropModifier)
-    {
-        EnemyType = enemyType;
-        EnemyCount = enemyCount;
-        DelayBtwSpawn = delayBtwSpawn;
-        EnemyPowerModifier = enemyPowerModifier;
-        MoneyDropModifier = moneyDropModifier;
-    }
+[Serializable]
+public class EnemySequence
+{
+    [SerializeField] private EnemyFactory _enemyFactory;
+    [SerializeField] private EnemyType _enemyType => _enemyFactory.EnemyType;
+    [SerializeField, Range(1, 200)] private int _amount;
+    [SerializeField, Range(0.1f, 10f)] private float _cooldown;
 }
