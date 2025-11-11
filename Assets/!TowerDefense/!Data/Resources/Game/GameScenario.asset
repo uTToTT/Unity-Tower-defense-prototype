@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameScenario
   _waves:
   - {fileID: 11400000, guid: 3ce8deaebfbca7f4384a09d072a77675, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: df8b7e2dd7c8ec74fbd74fcb026b7710, type: 2}
