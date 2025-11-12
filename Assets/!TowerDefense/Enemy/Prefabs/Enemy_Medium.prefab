@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43929be5a4e852546965a56e53fa7eb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  _config: {fileID: 11400000, guid: fa3f6e988813d9d438f6278cfe19445c, type: 2}
+  _config: {fileID: 11400000, guid: 62cefdd7ed324a749928a4d0f310340c, type: 2}
 --- !u!58 &3273021707483358422
 CircleCollider2D:
   m_ObjectHideFlags: 0

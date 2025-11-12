@@ -37,6 +37,7 @@ public class EnemySpawnSequence
                     return _cooldown;
                 }
                 _count += 1;
+                Game.SpawnEnemy(_sequence._enemyFactory);
             }
             return -1f;
         }

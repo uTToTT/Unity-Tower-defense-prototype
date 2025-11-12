@@ -24,7 +24,7 @@ public class MoveManager : MonoBehaviour
     public void Register(IMovable movable) => _toAdd.Add(movable);
     public void Unregister(IMovable movable) => _toRemove.Add(movable);
 
-    private void Update()
+    public void GameUpdate()
     {
         if (_isMoveActive == false) return;
 

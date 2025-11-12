@@ -8,6 +8,8 @@ public class GameScenario : ScriptableObject
     [Expandable]
     [SerializeField] private EnemyWave[] _waves;
 
+    public State Begin() => new State(this);
+
     [Serializable]
     public struct State
     {

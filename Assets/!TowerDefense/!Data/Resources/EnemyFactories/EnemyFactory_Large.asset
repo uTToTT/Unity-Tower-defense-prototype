@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d6dca263004e3c4f8b5a2442557baa6, type: 3}
-  m_Name: EnemyFactory_Heavy
+  m_Name: EnemyFactory_Large
   m_EditorClassIdentifier: Assembly-CSharp::EnemyFactory
-  _prefab: {fileID: 2165585025362849812, guid: 12f27357fc5377b45a6d663cbf532292, type: 3}
+  _prefab: {fileID: 5421271830828568362, guid: dced3eca5ecf1e947b85d2e51a1fa186, type: 3}
   _capacity: 0
   _maxCount: 1
   _totalPreload: 1

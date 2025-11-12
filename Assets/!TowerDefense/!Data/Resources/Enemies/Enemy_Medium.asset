@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 928094f63293a8c4d996c92f10f155bc, type: 3}
-  m_Name: Enemy_Default
+  m_Name: Enemy_Medium
   m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
-  <Type>k__BackingField: 0
-  <HP>k__BackingField: 10
+  <Type>k__BackingField: 1
+  <HP>k__BackingField: 5
   <Speed>k__BackingField: 5
-  <Damage>k__BackingField: 2
+  <Damage>k__BackingField: 1
