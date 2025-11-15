@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25855d51513655046a18ed558cc33ba2, type: 3}
   m_Name: EnemyWave_2
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWave
-  _enemySequences:
+  _spawnSequences:
+  - _enemyFactory: {fileID: 11400000, guid: 8044db7ff608e564580f21e2de685301, type: 2}
+    _amount: 3
+    _cooldown: 3
   - _enemyFactory: {fileID: 11400000, guid: bc4b99c9f10285e4c8c467ad0eb1624b, type: 2}
-    _amount: 1
-    _cooldown: 0.1
+    _amount: 5
+    _cooldown: 1
